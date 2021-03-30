@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0px -10px 30px #3292A6; }
+  .navbar .nav-item {
+    padding-right: 15px;
+    font-size: 1.2rem; }
+
+#hero {
+  position: relative;
+  background-image: url(../img/mountains.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+
+#authors .card {
+  position: relative;
+  margin: 0 auto; }
+  #authors .card img {
+    position: absolute;
+    bottom: 80%;
+    left: 25%; }
+#authors .card-body {
+  margin-top: 80px; }
+  #authors .card-body .icon-box {
+    justify-content: space-around; }
+    #authors .card-body .icon-box i {
+      font-size: 1.5rem; }
+#authors .card:hover {
+  transform: scale(1.1);
+  transition: .3s all ease-in-out;
+  background-color: #3292A6;
+  color: #fff !important; }
